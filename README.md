@@ -1,39 +1,72 @@
-# Interactive Question Management Sheet (Codolio)
+# 🚀 Interactive Question Management Sheet (Codolio)
 
-An interactive, single-page application for tracking DSA progress, designed with a focus on user experience and productivity. This project essentially recreates and enhances the functionality of the "Striver SDE Sheet" with a modern, highly responsive UI.
+![License](https://img.shields.io/badge/License-MIT-blue.svg) ![React](https://img.shields.io/badge/React-18-blue) ![Vite](https://img.shields.io/badge/Vite-Fast-yellow) ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-teal)
 
-## 🚀 Live Demo & Features
+> **"Consistency is the key of success, so be consistent. Success has no shortcut but smart work."**
 
-### Core Functionality
-- **Hierarchical Organization**: Manage Questions nested within Sub-Topics, nested within Topics.
-- **Full CRUD**:
-  - **Add/Edit/Delete** Topics, Sub-Topics, and Questions.
-  - **Drag-and-Drop Reordering**: Seamlessly reorder Topics, Sub-Topics, and Questions to customize your learning path.
-- **Persistence**: Data is automatically saved to Local Storage, ensuring you never lose your progress.
-- **Sample Data**: Pre-loaded with the comprehensive **Striver SDE Sheet** curriculum.
+---
 
-### 🌟 Bonus Features (Improvements)
-We went beyond the basics to add features missing from standard trackers:
-1.  **Multiple Platform Links**: Support for multiple practice links per question (LeetCode, CodingNinjas, GeeksforGeeks) with auto-detected platform badges.
-2.  **Revision Bookmarks**: "Star" questions to add them to a dedicated **Bookmarks View** for quick revision.
-3.  **Personal Notes**: Add, edit, and view personal notes for every question to jot down intuitions or edge cases.
-4.  **Completion Tracking**: Visual progress circle in the header tracks your overall completion status in real-time.
-5.  **Codolio Theme**: A premium, "Codolio"-inspired UI with a polished Sky Blue & Orange aesthetic.
+## 📸 Demo
+
+![Application Screenshot](public/demo-screenshot.png)
+
+*(Note: Please add a screenshot of the application to the `public/` folder and name it `demo-screenshot.png` to see it here!)*
+
+---
+
+## 📜 Manifesto
+
+Data Structures and Algorithms (DSA) are the bedrock of software engineering interviews. However, tracking progress across hundreds of questions can be daunting.
+
+**The Interactive Question Management Sheet** is built to solve this. It's not just a checklist; it's a **comprehensive learning environment**. Inspired by the Codolio platform, this tool empowers developers to:
+
+- **Organize** their learning path hierarchically.
+- **Track** their progress visually.
+- **Revise** effectively with bookmarks and notes.
+- **Focus** on what matters: solving problems.
+
+---
+
+## ✅ Functional Requirements
+
+This project fulfills all core assignment requirements:
+
+- [x] **Add Functionality**: Users can create Topics, Sub-topics, and Questions.
+- [x] **Edit/Delete**: Full CRUD capabilities for all items.
+- [x] **Hierarchical Structure**: Data organized as `Topic -> Sub-topic -> Question`.
+- [x] **Drag-and-Drop Reordering**: Seamlessly reorder Topics, Sub-Topics, and Questions using `@dnd-kit`.
+- [x] **Clean UI**: A responsive, intuitive single-page application.
+- [x] **State Management**: Robust state handling with Zustand.
+
+## 🌟 Bonus Features (Enhancements)
+
+We went the extra mile to deliver a premium experience:
+
+- [x] **Codolio Theme & Branding**: A professional Sky Blue & Orange aesthetic.
+- [x] **Visual Progress Tracking**: A real-time circular progress bar in the header.
+- [x] **Bookmarks System**: "Star" questions and filter by "Bookmarks Only" for revision.
+- [x] **Notes Integration**: Add personal notes to any question.
+- [x] **Multiple Platform Support**: Links for LeetCode, CodingNinjas, and GFG side-by-side.
+- [x] **Data Persistence**: All changes are saved to `localStorage` automatically, ensuring no data loss.
+
+---
 
 ## 🛠️ Tech Stack
-- **Frontend Framework**: React 18
-- **Build Tool**: Vite (Fast HMR & Optimized Builds)
-- **Styling**: Tailwind CSS (Utility-first, responsive design)
-- **State Management**: Zustand (with Persist middleware)
-- **Drag & Drop**: @dnd-kit (Modern, accessible, performant dnd)
+
+- **Frontend Framework**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand (Persist Middleware)
+- **Drag & Drop**: @dnd-kit/core & @dnd-kit/sortable
 - **Icons**: Lucide React
 
-## 🏃‍♂️ How to Run Locally
+---
+
+## 🏃‍♂️ Getting Started
 
 1.  **Clone the repository**
     ```bash
-    git clone <repository_url>
-    cd assignment
+    git clone https://github.com/PriyalKumar01/Interactive-Question-Management-Sheet.git
+    cd Interactive-Question-Management-Sheet
     ```
 
 2.  **Install Dependencies**
@@ -41,23 +74,18 @@ We went beyond the basics to add features missing from standard trackers:
     npm install
     ```
 
-3.  **Start Development Server**
+3.  **Run Locally**
     ```bash
     npm run dev
     ```
-    Open `http://localhost:5173` (or the port shown in terminal) to view the app.
-
-4.  **Build for Production**
-    ```bash
-    npm run build
-    ```
-
-## 📁 Project Structure
-
-- `src/store/useSheetStore.js`: Zustand store handling all global state and business logic (CRUD, Reordering, Notes, Bookmarks).
-- `src/components/`: Modular components (TopicCard, SubTopicCard, QuestionItem, Modals).
-- `src/data/sampleData.js`: Initial dataset (Striver SDE Sheet).
-- `src/pages/SheetPage.jsx`: Main application layout and drag-and-drop context.
+    Open `http://localhost:5173` to view the app.
 
 ---
-*Created for the Codolio Frontend Assignment.*
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
+
+---
+
+Made with ❤️ by **Priyal Kumar**
