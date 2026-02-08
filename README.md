@@ -10,7 +10,6 @@
 
 ![Application Screenshot](public/demo-screenshot.png)
 
-*(Note: Please add a screenshot of the application to the `public/` folder and name it `demo-screenshot.png` to see it here!)*
 
 ---
 
