@@ -15,7 +15,7 @@ This interactive sheet is designed to help you track your progress, revise impor
 ---
 
 
-## 📸 Demo
+## 📸 Demo : How it look like 
 
 ![Application Screenshot](public/demo-screenshot.png)
 
