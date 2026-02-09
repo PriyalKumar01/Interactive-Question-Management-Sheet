@@ -1,16 +1,24 @@
-# 🚀 Interactive Question Management Sheet (Codolio) <!-- Updated -->
+# 🚀 Interactive Question Management Sheet (Codolio)
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg) ![React](https://img.shields.io/badge/React-18-blue) ![Vite](https://img.shields.io/badge/Vite-Fast-yellow) ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-teal)
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-Fast-yellow)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-teal)
+![Zustand](https://img.shields.io/badge/Zustand-State%20Management-orange)
+![Drag and Drop](https://img.shields.io/badge/Drag%20%26%20Drop-Supported-purple)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-blueviolet)
 
-> **"Consistency is the key of success, so be consistent. Success has no shortcut but smart work."**
+This interactive sheet is designed to help you track your progress, revise important concepts with bookmarks, and master Data Structures & Algorithms efficiently with Codolio's premium tracking features.
+> **"Consistency is the key to success. There are no shortcuts - only smart work."**
 
 ---
+
 
 ## 📸 Demo
 
 ![Application Screenshot](public/demo-screenshot.png)
 
-*(Note: Please add a screenshot of the application to the `public/` folder and name it `demo-screenshot.png` to see it here!)*
 
 ---
 
